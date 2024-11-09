@@ -13,3 +13,21 @@
 ## A
 
 #구현
+input = input()
+score = int(input)
+
+if score >= 0 and score <= 100:
+    num = score // 10
+    match num:
+        case 10 | 9:
+            print("A")
+        case 8:
+            print("B")
+        case 7:
+            print("C")
+        case 6:
+            print("D")
+        case _:
+            print("F")
+else:
+    print("점수를 잘못 입력하셨습니다.")
