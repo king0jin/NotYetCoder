@@ -15,3 +15,13 @@ I'm not good at coding. But one day I'll...
  
 ## 2단계
 ### 조건문 
++ if:
++ elif:
++ else:
++ match 기준: ~ case 기준값:
++ 여러 데이터/함수를 순차적으로 적용 : map()
++ 시간계산 - 60으로 나눈 나머지와 몫
+
+## 3단계
+### 반복문
++ i가 1부터 10까지 반복 - for i range(1, 10+1):
