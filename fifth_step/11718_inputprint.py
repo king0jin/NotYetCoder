@@ -25,3 +25,6 @@ inputnlines = sys.stdin.readlines()
 
 for i in inputnlines:
     print(i, end="")
+
+#sys.stdin.readlines()는 EOF 신호를 만나기 전까지 프로그램이 멈춘다
+#출력할 때는 print의 end=""를 사용해 개행 문자를 중복해서 출력하지 않도록 설정
