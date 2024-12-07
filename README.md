@@ -55,4 +55,12 @@ I'm not good at coding. But one day I'll...
 
 ## 5단계
 ### 문자열
++ 문자 => 아스키코드 - **ord(A) = 65**
++ 아스키코드 => 문자 - **chr(65) = A**
++ 여러 줄 입력 받기 - **sys.stdin.readlines()**
++ 리스트 뒤집기 - **리스트이름[::-1]**
++ 딕셔너리의 키, 값 가져오기 - **for key, value in 딕셔너리이름.items()**
++ 대문자로 변화 - **.upper()**
 
+## 6담계
+### 심화1
