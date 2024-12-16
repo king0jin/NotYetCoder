@@ -35,10 +35,8 @@
 
 #구현
 MatrixList =[]
-
-Matrix = 2 # 9x9 행렬
+Matrix = 9 # 9x9 행렬
 N = Matrix
-# M = Matrix
 
 import sys
 
